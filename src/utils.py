@@ -26,8 +26,8 @@ __b58base = len(__b58chars)
 
 global PUBKEY_ADDRESS
 global SCRIPT_ADDRESS
-PUBKEY_ADDRESS = 138
-SCRIPT_ADDRESS = 5
+PUBKEY_ADDRESS = 52
+SCRIPT_ADDRESS = 7
 
 def rev_hex(s):
     return s.decode('hex')[::-1].encode('hex')
@@ -230,7 +230,7 @@ def timestr():
 import logging
 import logging.handlers
 
-logger = logging.getLogger('electrum-ixc')
+logger = logging.getLogger('electrum-nmc')
 
 def init_logger(logfile):
     hdlr = logging.handlers.WatchedFileHandler(logfile)

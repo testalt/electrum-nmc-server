@@ -1,33 +1,33 @@
 from setuptools import setup
 
 setup(
-    name="electrum-ixc-server",
+    name="electrum-nmc-server",
     version="0.9",
-    scripts=['run_electrum_ixc_server','electrum-ixc-server'],
+    scripts=['run_electrum_nmc_server','electrum-nmc-server'],
     install_requires=['plyvel','jsonrpclib', 'irc'],
     package_dir={
-        'electrumixcserver':'src'
+        'electrumnmcserver':'src'
         },
     py_modules=[
-        'electrumixcserver.__init__',
-        'electrumixcserver.utils',
-        'electrumixcserver.storage',
-        'electrumixcserver.deserialize',
-        'electrumixcserver.networks',
-        'electrumixcserver.blockchain_processor',
-        'electrumixcserver.server_processor',
-        'electrumixcserver.processor',
-        'electrumixcserver.version',
-        'electrumixcserver.ircthread',
-        'electrumixcserver.stratum_tcp',
-        'electrumixcserver.stratum_http'
+        'electrumnmcserver.__init__',
+        'electrumnmcserver.utils',
+        'electrumnmcserver.storage',
+        'electrumnmcserver.deserialize',
+        'electrumnmcserver.networks',
+        'electrumnmcserver.blockchain_processor',
+        'electrumnmcserver.server_processor',
+        'electrumnmcserver.processor',
+        'electrumnmcserver.version',
+        'electrumnmcserver.ircthread',
+        'electrumnmcserver.stratum_tcp',
+        'electrumnmcserver.stratum_http'
     ],
-    description="Ixcoin Electrum Server",
+    description="Namecoin Electrum Server",
     author="Thomas Voegtlin",
     author_email="thomasv1@gmx.de",
     license="GNU Affero GPLv3",
-    url="https://github.com/ixcoin123/electrum-server/",
-    long_description="""Server for the Electrum Lightweight Ixcoin Wallet"""
+    url="https://github.com/test123/electrum-nmc-server/",
+    long_description="""Server for the Electrum Lightweight Namecoin Wallet"""
 )
 
 
