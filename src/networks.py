@@ -14,6 +14,6 @@ params = {
     'namecoin_main': {
         'pubkey_address': 52,
         'script_address': 7,
-        'genesis_hash': '0x000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'
+        'genesis_hash': '0000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'
     }
 }
